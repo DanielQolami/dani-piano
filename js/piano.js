@@ -77,7 +77,7 @@ let song = (notesString, tempo = 2, cb) => {
       clearInterval(interval);
       cb();
     }
-  }, 100 * tempo);
+  }, 150 * tempo);
 };
 
 let init = () => {
