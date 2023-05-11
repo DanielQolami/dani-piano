@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dani Piano</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="piano">
+      <div class="piano__body">
+        <div class="piano__speakers"></div>
+        <div class="piano__interface">
+          <div class="piano__controls">
+            <h4 class="piano__heading">PIANO</h4>
+            <label
+              ><input
+                class="piano__control__option"
+                type="radio"
+                name="control"
+                value="letterNotes"
+                checked
+              />Letter Notes</label
+            >
+            <label
+              ><input
+                class="piano__control__option"
+                type="radio"
+                name="control"
+                value="keyboard"
+              />Keyboard</label
+            >
+            <label
+              ><input
+                class="piano__control__option"
+                type="radio"
+                name="control"
+                value="none"
+              />
+              None</label
+            >
+          </div>
+          <div class="piano__autoplay">
+            <h4 class="piano__heading">AUTOPLAY</h4>
+            <select class="piano__song-list">
+              <option value="1">Jingle Bells</option>
+              <option value="2">Happy Birthday</option>
+            </select>
+            <label
+              >Tempo:
+              <select class="piano__tempo">
+                <option value="3">Slow</option>
+                <option value="2" selected>Normal</option>
+                <option value="1">Fast</option>
+              </select></label
+            >
+            <button class="piano__play-btn">Play</button>
+          </div>
+        </div>
+        <div class="piano__speakers"></div>
+      </div>
+
+      <div class="piano__keyboard"></div>
+    </div>
+
+    <!-- <script src="js/sounds.js" type="module"></script> -->
+    <script src="js/piano.js"></script>
+  </body>
+</html>
