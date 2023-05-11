@@ -8,6 +8,6 @@ Every time you press a key or click on a key, it downloads the sound and plays i
 
 the piano keys are created using javascript.
 
-for keyboard use, I used dataset on each btn and take its value from an Array.
+for keyboard use, I used dataset on each button and take its value from a hard-coded Array.
 
 to see the result -> https://danielqolami.github.io/dani-piano/
